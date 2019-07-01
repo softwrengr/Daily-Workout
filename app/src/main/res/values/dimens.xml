@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardMarginHorizontal">10dp</dimen>
+    <dimen name="cardMarginVertical">8dp</dimen>
+    <dimen name="cardMarginTop">5dp</dimen>
+    <dimen name="cardMarginBottom">5dp</dimen>
+    <dimen name="cardMarginLeft">5dp</dimen>
+    <dimen name="cardMarginRight">5dp</dimen>
+
+    <dimen name="margin">5dp</dimen>
+    <dimen name="app_bar_height">220dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">18dp</dimen>
+</resources>

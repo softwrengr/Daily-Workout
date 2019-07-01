@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codester.fitness.workout.Activity.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/howtoperform"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt"
+            android:layout_below="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"
+            android:text="sasa"
+            android:textColor="@color/viewcolor"
+            android:layout_margin="10dp"/>
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="90dp"-->
+            <!--android:id="@+id/facebook_rel_id"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_below="@id/txt"-->
+            <!--&gt;-->
+        <!--</RelativeLayout>-->
+        <com.google.android.gms.ads.AdView
+            android:visibility="visible"
+            android:id="@+id/adView"
+            android:layout_below="@id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/AdmobBannerAdsID">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/header"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:text="@string/howtoperform"-->
+        <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="18dp"-->
+        <!--android:textStyle="bold" />-->
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
