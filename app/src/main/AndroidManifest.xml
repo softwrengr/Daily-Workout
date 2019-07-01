@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codester.fitness.workout">
+    package="com.squaresdevelopers.fitness">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -22,10 +22,10 @@
         <!--<meta-data-->
             <!--android:name="com.facebook.sdk.ApplicationId"-->
             <!--android:value="@string/facebook_app_id" />-->
-        <receiver android:name="com.codester.fitness.workout.Activity.MyReceiver" />
+        <receiver android:name="com.squaresdevelopers.fitness.Activity.MyReceiver" />
 
         <activity
-            android:name="com.codester.fitness.workout.Activity.Activity"
+            android:name="com.squaresdevelopers.fitness.Activity.Activity"
             android:screenOrientation="portrait"
 
             android:theme="@style/AppTheme.NoActionBar">
@@ -35,27 +35,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.codester.fitness.workout.Activity.Second_home"
+            android:name="com.squaresdevelopers.fitness.Activity.Second_home"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.codester.fitness.workout.Activity.ActivityRecord"
+            android:name="com.squaresdevelopers.fitness.Activity.ActivityRecord"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.codester.fitness.workout.Activity.ReminderActivity"
+            android:name="com.squaresdevelopers.fitness.Activity.ReminderActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.codester.fitness.workout.Activity.DetailActivity"
+            android:name="com.squaresdevelopers.fitness.Activity.DetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.codester.fitness.workout.Activity.ActivityCompose"
+            android:name="com.squaresdevelopers.fitness.Activity.ActivityCompose"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.codester.fitness.workout.Activity.ScrollingActivity"
+            android:name="com.squaresdevelopers.fitness.Activity.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
